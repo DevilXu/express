@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>登陆用户</title>
+    <title>首页</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body ng-app="demo" ng-controller="WelcomeController">
     欢迎用户:<%= user.name %>
     <a href="/loginout">注销</a>
-
     <div>
       {{greeting}}
     </div>
-
     <ul>
-    <li data-ng-repeat="x in users">
-      {{ x.name }}
-    </li>
-  </ul>
+      <li data-ng-repeat="x in users">
+        {{ x.name }}
+      </li>
+    </ul>
+    <div style="background: red;line-height: 200px;">
+      我就是测试行距用的!
+    </div>
+    <span style="background:blue;padding:12px;">这是用来看span中的行距的!</span>
   </body>
 </html>
 <script type="text/javascript" src='/plugins/angular/angular.min.js'></script>
