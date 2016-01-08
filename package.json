@@ -1,5 +1,5 @@
 {
-  "name": "myapp",
+  "name": "express",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,23 @@
     "serve-favicon": "~2.3.0"
   },
   "devDependencies": {
+    "generic-pool": "^2.3.1",
     "mongodb": "^2.0.55",
     "mongoskin": "^2.0.3"
-  }
+  },
+  "description": "mean 框架",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevilXu/express.git"
+  },
+  "keywords": [
+    "node+express+angular+mongodb"
+  ],
+  "author": "XLT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevilXu/express/issues"
+  },
+  "homepage": "https://github.com/DevilXu/express#readme"
 }
